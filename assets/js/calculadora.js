@@ -4,7 +4,10 @@ let operacion = prompt("escriba una oeracion")
 
 
 // suma, resta, multiplicacion, division, resto(módulo), exponenciación
-if(operacion === "suma"){
+
+if (isNaN(numeroUno) || isNaN(numeroDos)) {
+    console.log("ingrese números");
+} else if(operacion === "suma"){
     console.log(numeroUno + numeroDos)
 } else if(operacion === "resta"){
     console.log(numeroUno - numeroDos)
