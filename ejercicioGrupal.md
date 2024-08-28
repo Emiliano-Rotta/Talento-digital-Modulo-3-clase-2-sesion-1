@@ -1,6 +1,4 @@
-Sintaxis y Variables:
-hacer trabajo colaborativo..
-git y github.. buen uso de commits. si se animan usen ramas
+
 
 Ejercicio Calculadora simple
 
@@ -11,3 +9,9 @@ implementar la lógica para realizar la operación aritmética según el valor d
 Asegúrate de que se realice la conversión de tipo si es necesario (por ejemplo, de string a número).
 
 -No usar funciones, sino condicionales
+
+
+Si les sobra tiempo:
+
+hacer trabajo colaborativo..
+con github
