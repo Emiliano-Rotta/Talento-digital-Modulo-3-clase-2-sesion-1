@@ -50,21 +50,40 @@
 
 
 ///---------------------------------incremento
-let numUno = 40
+// let numUno = 40
 
-numUno++
-numUno++
-numUno++
-numUno++
-numUno++
-console.log(numUno) //45
+// numUno++
+// numUno++
+// numUno++
+// numUno++
+// numUno++
+// console.log(numUno) //45
 
 ///---------------------------------decremento
-let numDos = 3
-numDos--
-numDos--
-numDos--
-numDos--
-numDos--
-console.log(numDos) //-2
+// let numDos = 3
+// numDos--
+// numDos--
+// numDos--
+// numDos--
+// numDos--
+// console.log(numDos) //-2
 
+
+
+// ---------------------------------------
+//Outputs  se refiere al proceso de mostrar datos o resultados de alguna operación al usuario
+
+//prompt, alert, console.log
+//input (toda modificacion del DOM) document.querySelector("input")
+
+// document.write("esto se vera en el documento") //no es muy buena practica usarlo
+
+let personas = [
+
+    {nombre: "Carlos", edad: 34},
+    {nombre: "Juan", edad: 28},
+    {nombre: "Roberto", edad: 34}
+  ];
+
+ console.table(personas)
+  
